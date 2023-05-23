@@ -1,0 +1,111 @@
+body{
+    color: rgb(13, 1, 1);
+    background-color: rgb(40, 16, 172);
+    
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    padding: 20px;
+    text-align: left;
+}
+
+img {
+    
+    float: left;
+    padding: 6px;
+    height: 60px;
+    width: 60px;
+}
+.i11{
+    float: left ;
+    padding: 3px;
+    height: 90px;
+    width: 90px;
+}
+.i22{
+    float: right ;
+    padding: 3px;
+    height: 90px;
+    width: 90px;
+}
+form{
+   
+    text-align: center;
+    background-color: rgb(40, 16, 172);
+}
+
+.aste{
+    color: red;
+}
+
+.encapsulado1{
+    display: flex; /* Usa flexbox para el posicionamiento */
+    align-items: center;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.encapsulado2{
+    display: flex; /* Usa flexbox para el posicionamiento */
+    align-items: center;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+}
+.i{
+    width: 90px;
+    height: 90px;
+    margin: 55px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.textocorregir{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    margin: 0px 75px;
+}
+
+.divmul{
+    display: flex; /* Usa flexbox para el posicionamiento */
+    align-items: center;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.footermult{
+    text-align: center;
+    border: 1px solid rgb(198, 39, 39);
+    padding: 3px;
+}
+
+.h1footermult{
+    font-size: small;
+}
+
+.containermult{
+    display: flex;
+    justify-content: center;
+}
+
+.z{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}

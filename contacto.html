@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos3.css"/>
+    <title>pagina de contacto</title>
+</head>
+<style>
+    button{
+        width: 116px;
+        height: 40px;
+        color: rgb(226, 226, 231);
+        background-color: blue;
+    }
+    
+</style>
+<body>
+    <header>
+        <h1> FORMULARIO DE CONTACTO </h1>
+    </header>
+
+    <form>
+        
+        <span>
+            NOMBRE: <input type="text" name="NOMBRE: " required /> <a class ="aste"> *</a>
+        </span>
+        <br/>
+        <br/>
+        <span>
+            DNI: <input type="number" name="DNI: " required /> <a class ="aste"> *</a>
+        </span>
+        <br/>
+        <br/>
+        <span>
+            EMAIL: <input type="email" name="EMAIL: " required /> <a class ="aste"> *</a>
+        </span>
+        <br/>
+        <br/>
+        <span>
+            EDAD: <input type="number" name="EDAD: " /> 
+        </span>
+        <br/>
+        <br/>
+        <span>
+            PAIS: <select = "pais">
+                <option value="1"> ARGENTINA </option>
+                <option value="2"> URUGUAY </option>
+                <option value="3"> CHILE </option>
+                <option value="4"> MEXICO </option>
+            </select> 
+        </span>
+        <br/>
+        <br/>
+        <span>
+            IDIOMAS:
+            <input type="checkbox" name="idiomas: " value="ingles" /> INGLES
+            <input type="checkbox" name="idiomas: " value="ingles" /> ESPAÑOL
+            <input type="checkbox" name="idiomas: " value="ingles" /> ITALIANO
+        </span>
+        <br/>
+        <button id="bformulario">ENVIAR</button>
+    </form>
+</body>
+</html>
